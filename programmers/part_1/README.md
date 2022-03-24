@@ -1,2 +1,2 @@
 Hello World! 
-from wonjong
+from me
