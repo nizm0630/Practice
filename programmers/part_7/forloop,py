@@ -1,0 +1,5 @@
+#for문 사용하여 list안의 값 하나씩 출력
+list = ['가위','바위','보']
+
+for a in list:
+    print(a)
