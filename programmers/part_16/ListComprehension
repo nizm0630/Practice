@@ -6,8 +6,14 @@ print("list1 : ", list1)
 '''
 # list comprehension을 이용해서 list1이 1부터 100 사이의 8의 배수 생성
 
-areas1 = [ i*i for i in range(1,11) ]                          # [ 계산식 for문 ]
-areas2 = [ i*i for i in range(1,11) if i % 2 == 0]             # [ 계산식 for문 조건문 ]
-areas3 = [ ( x, y ) for x in range(15) for y in range(15) ]    # [ 계산식 for문 for문 ]
+# [ 계산식 for문 ]
+areas1 = [ i*i for i in range(1,11) ]
+
+# [ 계산식 for문 조건문 ]
+areas2 = [ i*i for i in range(1,11) if i % 2 == 0]
+
+
+# [ 계산식 for문 for문 ]
+areas3 = [ ( x, y ) for x in range(15) for y in range(15) ]
 
 '''
